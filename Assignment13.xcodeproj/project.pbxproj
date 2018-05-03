@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BF45FFF2209BB3720090C39C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF45FFF1209BB3720090C39C /* main.m */; };
+		BF45FFFA209BB3810090C39C /* PigLatin.m in Sources */ = {isa = PBXBuildFile; fileRef = BF45FFF9209BB3810090C39C /* PigLatin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		BF45FFEE209BB3720090C39C /* Assignment13 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Assignment13; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF45FFF1209BB3720090C39C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF45FFF8209BB3810090C39C /* PigLatin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PigLatin.h; sourceTree = "<group>"; };
+		BF45FFF9209BB3810090C39C /* PigLatin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PigLatin.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,8 @@
 		BF45FFF0209BB3720090C39C /* Assignment13 */ = {
 			isa = PBXGroup;
 			children = (
+				BF45FFF8209BB3810090C39C /* PigLatin.h */,
+				BF45FFF9209BB3810090C39C /* PigLatin.m */,
 				BF45FFF1209BB3720090C39C /* main.m */,
 			);
 			path = Assignment13;
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF45FFF2209BB3720090C39C /* main.m in Sources */,
+				BF45FFFA209BB3810090C39C /* PigLatin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
